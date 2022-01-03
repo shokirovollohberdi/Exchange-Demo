@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainColor"
+    android:orientation="vertical"
+    android:paddingStart="20dp"
+    android:paddingTop="15dp"
+    android:paddingEnd="20dp"
+    tools:context=".SettingsFragment">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/btnDasturTili"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#93908C"
+        android:outlineAmbientShadowColor="@color/codialColor"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="15dp">
+
+        <TextView
+            android:id="@+id/tvDasturTili"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableStart="@drawable/ic_baseline_language_24"
+            android:padding="20dp"
+            android:text=" Application language"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/btnDasturHaqida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#93908C"
+        android:outlineAmbientShadowColor="@color/codialColor"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="15dp">
+
+        <TextView
+            android:id="@+id/tvDasturHaqida"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableStart="@drawable/ic_baseline_info_24"
+            android:padding="20dp"
+            android:text=" About application"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
